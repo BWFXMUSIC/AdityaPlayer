@@ -364,16 +364,14 @@ async def start_message_private(client, message):
     else:
         caption = f"""**➻ Hello, {mention}
 
-🥀 I am An ≽ Advanced ≽ High Quality
-Bot, I Can Stream 🌿 Audio & Video In
-Your ♚ Channel And Group.
+━━━━━━━━━━━━━━━━━━━━━━━━
+💨 ʜᴇʟʟᴏ, ᴍᴇ ɪs ʙω͠ғ ᴜʟᴛʀᴀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
+ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs⚚‎🍒 ..
 
-🐬 Must Click ❥ Open Command List
-Button ⋟ To Get More Info's 🦋 About
-My All Commands.
-
-💐 Feel Free ≽ To Use Me › And Share
-With Your ☛ Other Friends.**"""
+┏━━━━━━━━━━━━━━━━━┓
+🦋𝐓𝐡𝐞♨️𝐌𝐨𝐬𝐭🩸𝐌𝐮𝐬𝐢𝐜𝐁𝐨𝐭🏓
+ @L2R_KING @BWF_MUSIC1 💌
+━━━━━━━━━━━━━━━━━━━━━━━━**"""
         buttons = InlineKeyboardMarkup(
             [
                 [
@@ -462,13 +460,13 @@ With Your ☛ Other Friends.**"""
         [
             [
                 InlineKeyboardButton(
-                    text="🥀 Add Me In Your Chat ✨",
+                    text="⛩️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⛩️",
                     url=f"https://t.me/{bot.me.username}?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="🌺 Open Command List 🌷",
+                    text="🔎 ʜᴇʟᴩ 🔎",
                     callback_data="open_command_list",
                 )
             ],
