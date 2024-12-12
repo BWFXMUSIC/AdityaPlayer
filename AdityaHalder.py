@@ -203,8 +203,8 @@ async def main():
         LOGGER.info(f"🚫 Assistant Error: {e}")
         sys.exit()
     try:
-        await app.join_chat("AdityaServer")
-        await app.join_chat("AdityaDiscus")
+        await app.join_chat("BWF_MUSIC1")
+        await app.join_chat("MUSICBOT_OWNER")
     except Exception:
         pass
     if LOG_GROUP_ID != 0:
