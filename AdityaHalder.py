@@ -754,21 +754,21 @@ async def stream_logger(
             if position:
                 caption = f"""**✅ Added To Queue At :** `#{position}`
 
-**🥀 Title:** {title}
-**🐬 Duration:** {duration}
-**🦋 Stream Type:** {stream_type}
-**🌺 Chat Name:** {chat_name}
-**🌼 Chat Link:** {chat_link}
-**👾 Requested By:** {requested_by}"""
+**❤️‍🔥 Title:** {title}
+**🪼 Duration:** {duration}
+**🪫 Stream Type:** {stream_type}
+**👻 Chat Name:** {chat_name}
+**♦️ Chat Link:** {chat_link}
+**🏓 Requested By:** {requested_by}"""
             else:
                 caption = f"""**✅ Started Streaming On VC.**
 
-**🥀 Title:** {title}
-**🐬 Duration:** {duration}
-**🦋 Stream Type:** {stream_type}
-**🌺 Chat Name:** {chat_name}
-**🌼 Chat Link:** {chat_link}
-**👾 Requested By:** {requested_by}"""
+**❤️‍🔥 Title:** {title}
+**🪼 Duration:** {duration}
+**🪫 Stream Type:** {stream_type}
+**👻 Chat Name:** {chat_name}
+**♦️ Chat Link:** {chat_link}
+**🏓 Requested By:** {requested_by}"""
             try:
                 await bot.send_photo(LOG_GROUP_ID, photo=thumbnail, caption=caption)
             except Exception:
@@ -1029,10 +1029,10 @@ async def stream_audio_or_video(client, message):
                 )
                 caption = f"""**✅ Added To Queue At :** `#{position}`
 
-**🥀 Title:** {title}
-**🐬 Duration:** {duration}
-**🦋 Stream Type:** {stream_type}
-**👾 Requested By:** {requested_by}"""
+**❤️‍🔥 Title:** {title}
+**🪼 Duration:** {duration}
+**🪫 Stream Type:** {stream_type}
+**👻 Requested By:** {requested_by}"""
                 await bot.send_photo(chat_id, thumbnail, caption, reply_markup=buttons)
                 await stream_logger(
                     chat_id, user, title, duration, stream_type, thumbnail, position
