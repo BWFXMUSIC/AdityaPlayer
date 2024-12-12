@@ -378,13 +378,13 @@ With Your ☛ Other Friends.**"""
             [
                 [
                     InlineKeyboardButton(
-                        text="🥀 Add Me In Your Chat ✨",
+                        text="⛩️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⛩️",
                         url=f"https://t.me/{bot.me.username}?startgroup=true",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        text="🌺 Open Command List 🌷",
+                        text="🔎 ʜᴇʟᴩ 🔎",
                         callback_data="open_command_list",
                     )
                 ],
